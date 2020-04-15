@@ -16,7 +16,7 @@ const GlobalStyles = createGlobalStyle`
   body {
     /* hs l(10, 0%, 98%) */
     background-color: 	hsl(10, 0%, 98%); 
-    color: hsl(229, 6%, 66%);
+    color: hsl(234, 12%, 34%);
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
     padding: 1.25rem;
@@ -37,6 +37,7 @@ const GlobalStyles = createGlobalStyle`
   
   .h1 {
     font-weight: 200;
+    color: hsl(234, 12%, 34%);
   }
   
   h2 {
@@ -44,7 +45,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   header {
-    margin-top: 3rem;
+    margin-top: 3.2rem;
     margin-bottom: 4rem;
   }
   
@@ -79,6 +80,7 @@ function App() {
             paragraph="Monitors activity to identify project roadblocks"
             icon={iconSupervisor}
             borderColor="green"
+            altText="Magnifying Glass Icon"
           />
           <Card
             header="Team Builder"
@@ -86,18 +88,21 @@ function App() {
             project."
             icon={iconTeamBuilder}
             borderColor="red"
+            altText="Little house on webpage icon"
           />
           <Card
             header="Karma"
             paragraph="Regularly evaluates our talent to ensure quality."
             icon={iconKarma}
             borderColor="yellow"
+            altText="Lightbulb icon"
           />
           <Card
             header="Calculator"
             paragraph="Uses data from past projects to provide better delivery estimates."
             icon={iconCalculator}
             borderColor="blue"
+            altText="Computer monitor icon"
           />
         </Layout>
       </div>

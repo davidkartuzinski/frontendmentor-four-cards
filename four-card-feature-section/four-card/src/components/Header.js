@@ -15,6 +15,7 @@ const StyledHeader = styled.header`
   @media (min-width: 36em) {
     p {
       max-width: 35em;
+      font-size: 16px;
     }
   }
 `;

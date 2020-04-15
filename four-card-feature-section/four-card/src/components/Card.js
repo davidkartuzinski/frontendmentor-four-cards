@@ -60,7 +60,7 @@ const Card = (props) => {
     >
       <h2>{props.header}</h2>
       <p>{props.paragraph}</p>
-      <img src={props.icon} />
+      <img src={props.icon} alt={props.altText} />
     </StyledCard>
   );
 };
