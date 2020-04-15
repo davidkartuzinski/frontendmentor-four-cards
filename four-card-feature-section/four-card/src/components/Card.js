@@ -8,11 +8,11 @@ const StyledCard = styled.section`
   padding: 1.4rem 1.6rem;
   /* 	h sl(0, 0%, 100%) */
   background-color: hsl(0, 0%, 100%);
-  -webkit-box-shadow: 0px 15px 24px 1px rgba(217,225,235,1);
-  -moz-box-shadow: 0px 15px 24px 1px rgba(217,225,235,1);
-  box-shadow: 0px 15px 24px 1px rgba(217,225,235,1);
+  -webkit-box-shadow: 0px 15px 24px 1px rgba(217, 225, 235, 1);
+  -moz-box-shadow: 0px 15px 24px 1px rgba(217, 225, 235, 1);
+  box-shadow: 0px 15px 24px 1px rgba(217, 225, 235, 1);
   position: relative;
-  
+
   p {
     font-size: 0.8rem;
     padding: 0;
@@ -31,10 +31,11 @@ const StyledCard = styled.section`
     padding: 1.4rem 1.8rem;
 
     img {
-      @media (min-width: 36em) { 
+      @media (min-width: 36em) {
         bottom: 1.8rem;
         right: 1.8rem;
         width: 4rem;
+      }
     }
   }
 `;
