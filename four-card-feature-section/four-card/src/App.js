@@ -52,10 +52,16 @@ const GlobalStyles = createGlobalStyle`
   @media (min-width: 36em) { 
     h1, .h1 {
       font-size: 2.25rem;
+      line-height: 1.4;
+    }
+    h1 {
+      margin-bottom: .5rem;
     }
     
+
+    
     header {
-      margin-bottom: 3rem;
+      margin-bottom: 3.4rem;
     }
     
   }

@@ -37,7 +37,7 @@ const StyledLayout = styled.main`
       grid-row: 2 / 3;
     }
 
-    grid-gap: 30px;
+    grid-gap: 40px;
     grid-template-columns: auto 350px 350px 350px auto;
     grid-template-rows: 110px 110px 110px 110px;
   }

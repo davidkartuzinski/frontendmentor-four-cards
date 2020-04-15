@@ -28,11 +28,19 @@ const StyledCard = styled.section`
     width: 3.5rem;
   }
   @media (min-width: 36em) {
-    padding: 1.4rem 1.8rem;
+    padding: 1.6rem 1.8rem 2.4rem;
+
+    p {
+      line-height: 2;
+    }
+
+    h2 {
+      margin-bottom: 0.5rem;
+    }
 
     img {
       @media (min-width: 36em) {
-        bottom: 1.8rem;
+        bottom: 2.4rem;
         right: 1.8rem;
         width: 4rem;
       }
